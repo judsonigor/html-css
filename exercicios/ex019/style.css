@@ -1,0 +1,41 @@
+@charset "UFT-8";
+
+
+body{
+    background-color:#8FC1B5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#007566;
+}
+
+h1#principal{
+    background-color:#146551;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color:#265C4B;
+}
+
+h2#Secundario{
+    color: #06a521;
+}
+
+.Secundario{
+    color: #06a521;
+}
+
+.tree{
+    color:#06a521;
+}
+
+.atenção{
+    color:rgb(163, 163, 9);
+}
+
+.pare{
+    color: red;
+}

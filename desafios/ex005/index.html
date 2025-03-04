@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        div#di{
+            display:inline-block;
+            background-color: aqua;
+            width:200px;
+            height:200px;
+            border:2px solid rgb(23, 206, 23);
+        }
+        div#di:hover{
+            background-color: white;
+        }
+        div#op:hover{  
+            color: aliceblue;     
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: aqua;
+            color: black;
+        }     
+    </style>
+</head>
+<body>
+    <h1>Pratica de Aula HTML e CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita at ex omnis, unde ipsa consectetur, error, eaque voluptate rem illo temporibus ullam hic consequatur possimus quis maiores ratione adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem facere architecto molestiae laudantium pariatur quis necessitatibus suscipit consequatur quod minus possimus adipisci eaque corrupti natus, sequi laborum. Magnam, alias nesciunt.</p>
+    <div id="di">01</div>
+    <div id="di">02</div>
+    <div id="di">02</div>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem deserunt neque? Obcaecati aut, exercitationem fugit autem error pariatur ab iure amet, inventore, ea explicabo esse sit nesciunt reprehenderit possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate impedit omnis quidem, error rerum dolore accusamus corrupti magnam repellendus explicabo, consequuntur nihil assumenda at sit quam quod similique, numquam ipsum.</p>
+    <div id="op">Bem-vindo
+        <p>Texto Escondido!</p>
+    </div>
+</body>
+</html>

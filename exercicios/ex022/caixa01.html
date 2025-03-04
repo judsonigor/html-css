@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        /* 1 - header = Para Titulo do site
+         (header colocamos um nav para links )
+           2 - main = conteudo principal
+           3- footer = roda pé ( para botar conteudo)
+           4- section = para seções dentro do site
+           5- aside = são coisa perifericas ao artigo (aartigo escritopor fulano etc.)
+
+           <main>
+            <section id="noticias">
+                
+
+                <section>
+            </main>
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #F2E7DC, #A9D9D0);
+            margin: 0px;
+        }
+        header{
+            background-color: lightslategray;
+            padding: 10px;
+            margin: 10px;    
+        }
+        nav{
+            background-color: azure;
+            padding:5px;
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 10px;
+            
+        }
+        main{
+            background-color: lightslategray;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        #noticias{
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+        }
+        aside{
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header> <h1>teste de apresedizado.</h1>
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <h2>Subtitulo de apresedizado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis delectus dolor saepe molestiae eligendi vero aliquam non rerum! Corrupti incidunt unde esse, nisi eveniet iusto voluptas labore nesciunt praesentium saepe?</p>
+            <aside>
+                <p>Escrito por Gustavo guranabra.</p>
+            </aside>
+        </section>
+        </main>
+        <footer>
+            <p>feito por CursoemVideo.</p>
+        </footer>
+</body>
+</html>
